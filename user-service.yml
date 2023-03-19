@@ -3,16 +3,19 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}AQByWLcZNxUxGeLgifS8ypDVNUYaNoVAE4WsErYZzEHVwq5ONjAoiIt88oeYI3zC+BvKofSYQuy8JV+3SwpXR2lv7QDRwEmJBOwFfkDQ6inD/X6CkKzXsGPVvduu/vWT48wusY2X8MrXLxnxPHDQhX1PN87c0x2W2Pgafl6oy/f/zYIAbf49i5TecZBiU4jkiJ9UxTALdf3DqA6Tyh65RjbRNvwuw6TrYl+iI5tcGrazOTZKZeVUZa+z6vDN04+erFH5hJ0NjGZJvhKuG7OYAoqohJNUDdcik3JoAQ1wkM0UDTJKbvRfnXC8csIZD4gg7TClMSqu3/sX3o5emN4PXJSEL5jSrgFUhpjZkfac7fghsxqk5wTfsVSkZIEF2BNsxko='
-    
+    password: "{cipher}AQByWLcZNxUxGeLgifS8ypDVNUYaNoVAE4WsErYZzEHVwq5ONjAoiIt88oeYI3zC+BvKofSYQuy8JV+3SwpXR2lv7QDRwEmJBOwFfkDQ6inD/X6CkKzXsGPVvduu/vWT48wusY2X8MrXLxnxPHDQhX1PN87c0x2W2Pgafl6oy/f/zYIAbf49i5TecZBiU4jkiJ9UxTALdf3DqA6Tyh65RjbRNvwuw6TrYl+iI5tcGrazOTZKZeVUZa+z6vDN04+erFH5hJ0NjGZJvhKuG7OYAoqohJNUDdcik3JoAQ1wkM0UDTJKbvRfnXC8csIZD4gg7TClMSqu3/sX3o5emN4PXJSEL5jSrgFUhpjZkfac7fghsxqk5wTfsVSkZIEF2BNsxko="
+
 token:
   expiration_time: 86400000
-  secret: '{cipher}AQBKmtABr+MTuiwNIUsbA82cfOxavX7QfInrCywuN0SRhQ+BuTScQYfC9vxkzsm/G63eeoOTGVknnJ6t3mWarBQkdhtSOCmlO+FvgAzCARF1P1h5gNsNnuEED6ubadwLLlLtcrzSSX6ZJaa6pnsKKOhQv76UZZ3GDCJo73jCMOq3q4r7gyeNqlmJhkrLzLtkgq7OLGdpYJq8wxlwniFVLJ5mxzejf+cTS3oIeW5f/+Z7SHUVFALNb7MdqiB0a37stQTeBZxOJwReyVGqikny48qLS/V0Wlmj26ceXG4QC/0p3oKgfpwZpliqLSlNGy7csamUUiJ65LhmP8qLoJPA0X1B/PkRGbf9ju+gcP9U1FPiI5DQ4vPcWBWhtV4qmrmZnD0='
+  secret: "{cipher}AQBKmtABr+MTuiwNIUsbA82cfOxavX7QfInrCywuN0SRhQ+BuTScQYfC9vxkzsm/G63eeoOTGVknnJ6t3mWarBQkdhtSOCmlO+FvgAzCARF1P1h5gNsNnuEED6ubadwLLlLtcrzSSX6ZJaa6pnsKKOhQv76UZZ3GDCJo73jCMOq3q4r7gyeNqlmJhkrLzLtkgq7OLGdpYJq8wxlwniFVLJ5mxzejf+cTS3oIeW5f/+Z7SHUVFALNb7MdqiB0a37stQTeBZxOJwReyVGqikny48qLS/V0Wlmj26ceXG4QC/0p3oKgfpwZpliqLSlNGy7csamUUiJ65LhmP8qLoJPA0X1B/PkRGbf9ju+gcP9U1FPiI5DQ4vPcWBWhtV4qmrmZnD0="
+
+# gateway:
+#   ip: 192.168.30.202
 
 gateway:
-  ip: 192.168.30.202
+  ip: 211.52.130.172
 
 order-service:
   url: http://ORDER-SERVICE/order-service/%s/orders/
-  exception: 
+  exception:
     orders_is_empty: There is no item.
