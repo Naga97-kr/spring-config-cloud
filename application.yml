@@ -3,7 +3,5 @@ token:
   secret: "{cipher}AQCGaAe0pInEvr7wjC98yr/hmm0Mt+MAfONF4TKRfVEXCslCqVjHCYh1nWHuNGDsvYyDEk2rWOf+hIw0jarGPXQplPudEPWbcDZtlEOJl5dEkq5ZN83mlTmGLhW78cFYhzeXjS4vZG30Ogldt+GIJr/m1GbaLouixB4m5pXKAJdomb38yy9/wVtJCeIwEZ6B4L2DGNr0igbxpEtCbMF5fRmxOaxi329mZJ+Hnb67BZ9TBlbi9uzYzcIsmtLbYt8KqNw5ktcEc2Z48EJP58IvIFyBOOeUoZDLx0x1emL31NYsFDrYqpuxukQ1re1HW2jT3dpGXAPp8S7XPhvNOHTkrkvqHzmv8bfSbmTvXY4/wDG4T9ZYjDg7HTgiF+YlwhbyH8o="
 
 gateway:
-  ip: 192.168.30.202
+  ip: 172.18.0.2
 
-# gateway:
-#   ip: 211.52.130.172
